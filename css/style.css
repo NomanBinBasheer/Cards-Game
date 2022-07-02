@@ -11,37 +11,82 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body{
+  background: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .mainSec{
   width: 50%;
-  margin: 2rem auto;
-  border: 2px solid red;
+  margin: 3rem auto 1rem auto;
 }
 .mainSec h1{
-  margin: 0.5rem 0;
+  margin: 0;
   display: flex;
   justify-content: center;
+  color: rgb(211, 157, 19);
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
 }
 .player1, .player2{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0.7rem 0 0.8rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(201, 147, 13);
 }
 .images{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-.image1, .image2{
-  border: 2px solid red;
+.image1{
+  margin: 0;
+}
+.back{
+  height: 334px;
+  border-radius: 10px;
+  margin: 0;
+  
+}
+.back img{
+  width: 215px;
+  height: 300px;
+  display: block;
+  border-radius: 10px;
 }
 button{
-  width: 30%;
-  border: 2px solid red;
+  width: 28%;
+  background: rgb(212, 155, 10);
+  color: rgb(253, 233, 183);
+  padding: 0.6rem 0;
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  margin: 0rem auto 0.5rem auto;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+button:hover{
+  transition: all, 1 sec;
+   transform: scale(1.02);
+   box-shadow: 2px 2px 3px rgb(173, 126, 5);;
+}
+button:active{
+  background: rgb(236, 182, 45);
 }
 .result{
   display: flex;
   justify-content: center;
+  color: rgb(255, 0, 0);
+  margin: 1.2rem 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
 }
 img{
   display: block;
