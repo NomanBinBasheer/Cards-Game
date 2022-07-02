@@ -12,7 +12,7 @@
 /* LAYOUT
 /*******************************************/
 .mainSec{
-  width: 40%;
+  width: 50%;
   margin: 2rem auto;
   border: 2px solid red;
 }
@@ -21,9 +21,9 @@
   display: flex;
   justify-content: center;
 }
-.players{
+.player1, .player2{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .images{
   display: flex;
@@ -32,7 +32,7 @@
 .image1, .image2{
   border: 2px solid red;
 }
-.draw{
+button{
   width: 30%;
   border: 2px solid red;
   display: flex;
