@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.mainSec{
+  width: 40%;
+  margin: 2rem auto;
+  border: 2px solid red;
+}
+.mainSec h1{
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+.players{
+  display: flex;
+  justify-content: space-evenly;
+}
+.images{
+  display: flex;
+  justify-content: space-evenly;
+}
+.image1, .image2{
+  border: 2px solid red;
+}
+.draw{
+  width: 30%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.result{
+  display: flex;
+  justify-content: center;
+}
+img{
+  display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
