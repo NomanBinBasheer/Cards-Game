@@ -25,7 +25,7 @@ body{
   margin: 0;
   display: flex;
   justify-content: center;
-  color: rgb(211, 157, 19);
+  color: rgb(160, 118, 12);
   font-size: 3rem;
   font-family: 'Righteous', cursive;
 }
@@ -46,7 +46,7 @@ body{
   margin: 0;
 }
 .back{
-  height: 334px;
+  height: 314px;
   border-radius: 10px;
   margin: 0;
   
@@ -59,7 +59,7 @@ body{
 }
 button{
   width: 28%;
-  background: rgb(212, 155, 10);
+  background: rgb(172, 126, 10);
   color: rgb(253, 233, 183);
   padding: 0.6rem 0;
   display: flex;
@@ -86,7 +86,8 @@ button:active{
   color: rgb(255, 0, 0);
   margin: 1.2rem 0 0 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-shadow: 0.5px 0.5px 3px rgb(197, 146, 17);
 }
 img{
   display: block;
